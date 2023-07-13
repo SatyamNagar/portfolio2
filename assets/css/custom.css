@@ -1,0 +1,44 @@
+textarea {
+    resize: vertical;
+}
+
+::-webkit-selection {
+    color: #fff;
+    background: black;
+  }
+  
+  ::-moz-selection {
+    color: #fff;
+    background: black;
+  }
+  
+  ::selection {
+    color: #fff;
+    background: black;
+  }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.icons-grid li {
+    transition: background-color 200ms ease;
+}
+
+.icons-grid li:hover {
+    /* background-color: #b5ebcb; */
+    background-color: #e3d77d;
+}
+
+.icons-grid li a h3:hover {
+    color: white;
+}
